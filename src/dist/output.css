@@ -548,12 +548,36 @@ video {
   position: relative;
 }
 
+.left-\[50\%\] {
+  left: 50%;
+}
+
 .top-\[50\%\] {
   top: 50%;
 }
 
-.top-\[48\%\] {
-  top: 48%;
+.left-\[30\%\] {
+  left: 30%;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.left-\[18\%\] {
+  left: 18%;
+}
+
+.left-\[16\%\] {
+  left: 16%;
+}
+
+.left-\[15\%\] {
+  left: 15%;
+}
+
+.left-\[17\%\] {
+  left: 17%;
 }
 
 .m-0 {
@@ -598,20 +622,16 @@ video {
   width: 30rem;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-\[10rem\] {
-  width: 10rem;
-}
-
 .w-1\/3 {
   width: 33.333333%;
-}
-
-.w-\[75\%\] {
-  width: 75%;
 }
 
 .flex-1 {
@@ -620,42 +640,6 @@ video {
 
 .origin-\[100\%\] {
   transform-origin: 100%;
-}
-
-.origin-\[50\%\] {
-  transform-origin: 50%;
-}
-
-.origin-\[150\%\] {
-  transform-origin: 150%;
-}
-
-.origin-\[120\%\] {
-  transform-origin: 120%;
-}
-
-.origin-\[125\%\] {
-  transform-origin: 125%;
-}
-
-.origin-\[750\%\] {
-  transform-origin: 750%;
-}
-
-.origin-\[75\%\] {
-  transform-origin: 75%;
-}
-
-.origin-\[25\%\%\] {
-  transform-origin: 25%%;
-}
-
-.origin-\[25\%\] {
-  transform-origin: 25%;
-}
-
-.origin-\[40\%\] {
-  transform-origin: 40%;
 }
 
 .translate-x-\[-3px\] {
@@ -678,18 +662,6 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-\[4rem\] {
-  border-width: 4rem;
-}
-
-.border-\[2rem\] {
-  border-width: 2rem;
 }
 
 .border-\[1rem\] {
