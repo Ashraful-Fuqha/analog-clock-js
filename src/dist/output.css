@@ -556,6 +556,118 @@ video {
   top: 50%;
 }
 
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.left-\[30\%\] {
+  left: 30%;
+}
+
+.left-\[25\%\] {
+  left: 25%;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.left-\[18\%\] {
+  left: 18%;
+}
+
+.left-\[16\%\] {
+  left: 16%;
+}
+
+.left-\[40\%\] {
+  left: 40%;
+}
+
+.left-\[35\%\] {
+  left: 35%;
+}
+
+.left-\[38\%\] {
+  left: 38%;
+}
+
+.left-\[39\%\] {
+  left: 39%;
+}
+
+.left-\[26\%\] {
+  left: 26%;
+}
+
+.left-\[27\%\] {
+  left: 27%;
+}
+
+.left-\[25\.5\%\] {
+  left: 25.5%;
+}
+
+.left-\[38\.5\%\] {
+  left: 38.5%;
+}
+
+.left-\[25\.8\%\] {
+  left: 25.8%;
+}
+
+.left-\[38\.8\%\] {
+  left: 38.8%;
+}
+
+.left-\[25\.3\%\] {
+  left: 25.3%;
+}
+
+.left-\[24\%\] {
+  left: 24%;
+}
+
+.left-\[38\.3\%\] {
+  left: 38.3%;
+}
+
+.left-\[38\.2\%\] {
+  left: 38.2%;
+}
+
+.left-\[38\.1\%\] {
+  left: 38.1%;
+}
+
+.left-\[25\.4\%\] {
+  left: 25.4%;
+}
+
+.left-\[37\.9\%\] {
+  left: 37.9%;
+}
+
+.left-\[37\.8\%\] {
+  left: 37.8%;
+}
+
+.left-\[33\%\] {
+  left: 33%;
+}
+
+.left-\[32\%\] {
+  left: 32%;
+}
+
+.left-\[30\.9\%\] {
+  left: 30.9%;
+}
+
+.left-\[31\.5\%\] {
+  left: 31.5%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -606,6 +718,46 @@ video {
   width: 100%;
 }
 
+.w-\[2rem\] {
+  width: 2rem;
+}
+
+.w-\[4rem\] {
+  width: 4rem;
+}
+
+.w-\[5rem\] {
+  width: 5rem;
+}
+
+.w-\[3rem\] {
+  width: 3rem;
+}
+
+.w-\[6rem\] {
+  width: 6rem;
+}
+
+.w-\[8rem\] {
+  width: 8rem;
+}
+
+.w-\[2\] {
+  width: 2;
+}
+
+.w-\[rem\] {
+  width: rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[5\.5rem\] {
+  width: 5.5rem;
+}
+
 .origin-\[100\%\] {
   transform-origin: 100%;
 }
@@ -617,6 +769,11 @@ video {
 
 .rotate-90 {
   --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -718,6 +875,14 @@ video {
 
 .ease-in_expo {
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 @media (min-width: 375px) {
