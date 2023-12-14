@@ -11,7 +11,7 @@ module.exports = {
         x_sm: '375px'
       },
       backgroundImage:{
-        'desktop': 'url(../../image/desktop.jpg)',
+        'desktop': 'url("../../image/desktop.jpg")',
         'mobile': 'url("../../image/mobile.jpg")'
       },
       fontFamily:{
