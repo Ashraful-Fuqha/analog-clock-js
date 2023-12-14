@@ -11,7 +11,8 @@ module.exports = {
         x_sm: '375px'
       },
       backgroundImage:{
-        'unsplash_image': 'url("https://unsplash.it/1500/1000?image=881&blur=5")'
+        'desktop': 'url(../../image/desktop.jpg)',
+        'mobile': 'url("../../image/mobile.jpg")'
       },
       fontFamily:{
         kalnia: "'Kalnia', serif",
